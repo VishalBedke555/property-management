@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Naveen Property Management | Smart Property Solutions</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Naveen Property</h1>
+                    <p>Management Limited</p>
+                </div>
+                <div class="menu-icon" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                    <li><a href="#properties" class="nav-link" data-page="properties">Properties</a></li>
+                    <li><a href="#services" class="nav-link" data-page="services">Services</a></li>
+                    <li><a href="#about" class="nav-link" data-page="about">About Us</a></li>
+                    <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <div class="badge"><i class="fas fa-chart-line"></i> Smart Property Management</div>
+                            <h2>We streamline value & manage assets with care</h2>
+                            <p>End-to-end property solutions for landlords, investors & tenants. Experience
+                                transparency, modern tech & human expertise.</p>
+                            <a href="#properties" class="btn-primary" id="explorePropertiesBtn">Explore Properties</a>
+                            <a href="#contact" class="btn-outline-light" id="getQuoteBtn">Get a Quote</a>
+                        </div>
+                        <div class="hero-img">
+                            <img src="./images/hero.jpg" alt="Modern building">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="section-header">
+                    <h2>🔥 Featured Properties</h2>
+                    <p>Discover our handpicked listings with outstanding value & prime locations</p>
+                </div>
+                <div class="properties-grid" id="featuredGrid"></div>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-stat="properties">500+</div>
+                        <div>Properties Managed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-stat="tenants">1200+</div>
+                        <div>Happy Tenants</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-stat="years">15+</div>
+                        <div>Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div>Legal Compliance</div>
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <h2>Our Core Services</h2>
+                    <p>Smart solutions that redefine property management</p>
+                </div>
+                <div class="services-grid" id="homeServicesGrid"></div>
+
+                <div class="section-header">
+                    <h2>What Our Clients Say</h2>
+                    <p>Trusted by landlords and residents across Watford</p>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card"><i class="fas fa-quote-left"></i>
+                        <p>"Naveen Property transformed how I manage my portfolio. Their reports and tenant screening
+                            are top-notch!"</p><strong>— Sarah J.</strong>
+                    </div>
+                    <div class="testimonial-card"><i class="fas fa-quote-left"></i>
+                        <p>"Professional, fast, and always reliable. The team found amazing tenants within a week."</p>
+                        <strong>— Michael T.</strong>
+                    </div>
+                    <div class="testimonial-card"><i class="fas fa-quote-left"></i>
+                        <p>"Best decision to switch. Stress-free property management with real results."</p><strong>— L.
+                            Chen</strong>
+                    </div>
+                </div>
+
+                <div class="about-preview">
+                    <div style="flex:1"><img src="./images/property-inside.avif" alt="Property team"></div>
+                    <div style="flex:1">
+                        <h3 style="color:var(--primary-dark);">We Know Property Inside Out</h3>
+                        <p data-contact="address">13 The Roundway, Watford, WD18 6LB — our headquarters is at the heart
+                            of the community. With full
+                            legal, financial & tax return services, we ensure your investment performs at its peak.</p>
+                        <a href="#about" class="btn-primary" style="margin-top:1rem; display:inline-block;">Learn about
+                            us →</a>
+                    </div>
+                </div>
+
+                <div class="contact-card-modern">
+                    <h3 style="font-size: 1.8rem;">📞 Need expert advice?</h3>
+                    <p>Contact our property specialists directly — we’re here to help you maximize returns and reduce
+                        stress.</p>
+                    <div class="contact-details-row">
+                        <div class="contact-info-item"><i class="fas fa-phone-alt"></i><br><strong>Call
+                                Us</strong><br><span data-contact="phone">+44 (0)1923 456789</span></div>
+                        <div class="contact-info-item"><i
+                                class="fas fa-envelope"></i><br><strong>Email</strong><br><span
+                                data-contact="email">hello@naveenproperty.co.uk</span>
+                        </div>
+                        <div class="contact-info-item"><i
+                                class="fas fa-map-marker-alt"></i><br><strong>Visit</strong><br><span
+                                data-contact="address">13 The Roundway, Watford WD18 6LB</span></div>
+                    </div>
+                    <a href="#contact" class="btn-outline-light"
+                        style="background: white; color: var(--primary-dark); margin-top: 1.5rem; display: inline-block;">Contact
+                        Us →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROPERTIES PAGE -->
+        <section id="properties" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2>All Properties</h2>
+                    <p>Exclusive listings curated for the best return</p>
+                </div>
+                <div class="properties-grid" id="allPropertiesGrid"></div>
+            </div>
+        </section>
+
+        <!-- SERVICES PAGE -->
+        <section id="services" style="display: none;">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Comprehensive Services</h2>
+                    <p>Everything from marketing to tax returns</p>
+                </div>
+                <div class="services-grid" id="fullServicesGrid"></div>
+                <div
+                    style="background: var(--primary-soft); border-radius: 28px; padding:2rem; margin:2rem 0; text-align:center;">
+                    <i class="fas fa-file-invoice-dollar"></i> <strong>Professional Reporting:</strong> Financial
+                    statements, legal compliance, and tax returns — all included.
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT US PAGE -->
+        <section id="about" style="display: none;">
+            <div class="container">
+                <div class="about-expanded">
+                    <div class="about-hero">
+                        <h2>About Naveen Property Management Ltd</h2>
+                        <p>Excellence in property management since 2010 — serving landlords, investors, and tenants with
+                            integrity and innovation.</p>
+                    </div>
+
+                    <div class="about-grid">
+                        <div class="about-image-grid">
+                            <img src="./images/our-team.webp" alt="Our team at work">
+                            <img src="./images/property-management.avif" alt="Property management">
+                            <img src="./images/modern-buildings.avif" alt="Modern building">
+                        </div>
+
+                        <div class="about-content">
+                            <div class="about-badge">
+                                <i class="fas fa-crown"></i> Trusted Property Partner
+                            </div>
+                            <h3>We're on a mission to transform property management</h3>
+                            <p class="about-description">
+                                Based at <strong data-contact="address">13 The Roundway, Watford, WD18 6LB</strong>,
+                                we've grown from a local
+                                agency to a trusted name across Hertfordshire and Greater London.
+                            </p>
+
+                            <div class="features-list">
+                                <div class="feature-item"><i class="fas fa-chart-line"></i><span>360° Asset
+                                        Management</span></div>
+                                <div class="feature-item"><i class="fas fa-user-shield"></i><span>Smart Tenant
+                                        Screening</span></div>
+                                <div class="feature-item"><i class="fas fa-balance-scale"></i><span>Legal & Tax
+                                        Compliance</span></div>
+                                <div class="feature-item"><i class="fas fa-chart-pie"></i><span>Transparent
+                                        Reporting</span></div>
+                                <div class="feature-item"><i class="fas fa-handshake"></i><span>Conflict
+                                        Resolution</span></div>
+                                <div class="feature-item"><i class="fas fa-tools"></i><span>Maintenance
+                                        Coordination</span></div>
+                            </div>
+
+                            <div class="stats-container">
+                                <div class="stat-block"><span class="stat-number-large"
+                                        data-stat="properties">500+</span><span class="stat-label">Properties
+                                        Managed</span></div>
+                                <div class="stat-block"><span class="stat-number-large"
+                                        data-stat="tenants">1200+</span><span class="stat-label">Happy Tenants</span>
+                                </div>
+                                <div class="stat-block"><span class="stat-number-large">98%</span><span
+                                        class="stat-label">Occupancy Rate</span></div>
+                                <div class="stat-block"><span class="stat-number-large"
+                                        data-stat="years">15+</span><span class="stat-label">Years Experience</span>
+                                </div>
+                            </div>
+
+                            <div class="mission-vision">
+                                <div class="mission-card"><i class="fas fa-bullseye"></i>
+                                    <h4>Our Mission</h4>
+                                    <p>To deliver stress-free, profitable property ownership.</p>
+                                </div>
+                                <div class="vision-card"><i class="fas fa-eye"></i>
+                                    <h4>Our Vision</h4>
+                                    <p>To become the UK's most trusted property management partner.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-info-bar">
+                    <div><i class="fas fa-map-marker-alt"></i> <span data-contact="address">13 The Roundway, Watford,
+                            WD18 6LB</span></div>
+                    <div><i class="fas fa-envelope"></i> <a href="mailto:hello@naveenproperty.co.uk"
+                            data-contact="email">hello@naveenproperty.co.uk</a></div>
+                    <div><i class="fas fa-phone-alt"></i> <a href="tel:+441923456789" data-contact="phone"><span
+                                data-contact="phone">+44 (0)1923 456789</span></a></div>
+                    <div><i class="fas fa-clock"></i> <span data-contact="hours">Mon-Fri: 9am - 6pm</span></div>
+                </div>
+
+                <p style="text-align: center; margin: 2rem 0; color: var(--text-muted); font-size: 0.9rem;">
+                    <i class="fas fa-heart" style="color: var(--primary);"></i> We don't just manage properties — we
+                    maximize value for every client we serve.
+                </p>
+            </div>
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section id="contact" style="display: none;">
+            <div class="container">
+                <div class="about-preview" style="gap:2rem; flex-direction: column;">
+                    <div style="width:100%; text-align:center;">
+                        <h2 style="color:var(--primary-dark);">Let's talk property</h2>
+                        <p>Fill the form or reach us directly — we reply within 24 hours.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 2rem; width:100%;">
+                        <div style="flex:1; background: white; border-radius: 32px; padding: 1rem; box-shadow: var(--shadow-sm);">
+                            <div>
+                                <img src="./images/contact.avif" height="100%" width="100%" style="object-fit: cover;" alt="">
+                            </div>
+                        </div>
+                        <div
+                            style="flex:1; background: white; border-radius: 32px; padding: 1.8rem; box-shadow: var(--shadow-sm);">
+                            <h3><i class="fas fa-map-marked-alt"></i> Visit Our Office</h3>
+                            <p><strong>Naveen Property Management Ltd</strong><br><span data-contact="address">13 The
+                                    Roundway, Watford, WD18 6LB</span>, United Kingdom</p>
+                            <iframe src="https://maps.google.com/maps?q=13+The+Roundway+Watford+WD18+6LB&output=embed"
+                                width="100%" height="220" style="border-radius: 24px; border:0;"
+                                allowfullscreen></iframe>
+                            <hr style="margin: 1rem 0;">
+                            <p><i class="fas fa-clock"></i> <span data-contact="hours">Mon - Fri: 9:00 -
+                                    18:00</span><br><i class="fas fa-phone"></i> <span data-contact="phone">+44 (0)1923
+                                    456789</span><br><i class="fas fa-envelope"></i> <span
+                                    data-contact="email-contact">contact@naveenproperty.co.uk</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Naveen Property</h4>
+                    <p><span data-contact="address">13 The Roundway, Watford, WD18 6LB</span><br>📞 <span
+                            data-contact="phone">+44 (0)1923 456789</span><br>✉️ <span
+                            data-contact="email-contact">contact@naveenproperty.co.uk</span></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <p><a href="#home">Home</a><br><a href="#properties">Properties</a><br><a
+                            href="#services">Services</a><br><a href="#about">About</a><br><a
+                            href="#contact">Contact</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <p>Investor Guide<br>Tenant Portal<br>Compliance & Tax Returns<br>FAQs</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links"><a href="#"><i class="fab fa-linkedin"></i></a> <a href="#"><i
+                                class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-facebook"></i></a> <a
+                            href="#"><i class="fab fa-x-twitter"></i></a></div>
+                    <p style="margin-top:1rem;">© 2026 Naveen Property Management Ltd</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>🏡 Smart property management made easy — expert solutions for every asset.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+
+</html>
