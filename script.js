@@ -1,9 +1,9 @@
 // ===== GLOBAL CONFIGURATION - UPDATE FROM ONE PLACE =====
         const CONFIG = {
-            PHONE: "+44 (0)1923 456789",
-            PHONE_LINK: "+441923456789",
-            EMAIL: "vishal@naveenproperty.co.uk",
-            EMAIL_CONTACT: "contact@naveenproperty.co.uk",
+            PHONE: "+44 7756589048",
+            PHONE_LINK: "+44 7756589048",
+            EMAIL: "Naveencreations4@gmail.com",
+            EMAIL_CONTACT: "Naveencreations4@gmail.com",
             ADDRESS: "13 The Roundway, Watford, WD18 6LB",
             BUSINESS_HOURS: "Mon-Fri: 9am - 6pm",
             PROPERTIES_MANAGED: "500+",
